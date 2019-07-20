@@ -6,9 +6,14 @@ https://www.anaconda.com/distribution/#download-section
 
 Open the anaconda command prompt. Enter the following command. *Please Note* A '$' symbol is used to denote a new line in a command prompt. It should not be included in the command. 
 
-`$ conda create -n myenv numpy pandas scikit-learn`
+`$ conda create -n sycl python=3`
 
-`$ activate myenv`
+`$ activate sycl`
 
-`$ conda install -c conda-forge jupyterlab keras`
+`$ python -m pip install --upgrade pip`
+
+`$ pip install scikit-learn tensorflow keras jupyterlab Pillow matplotlib numpy pandas matplotlib`
+
+`$ jupyter lab`
+
 
